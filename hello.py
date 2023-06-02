@@ -1,4 +1,5 @@
 def fibonacci(n):
+    '''Finally some recursive action! (showoff :)'''
     if n < 0:
         raise Exception("n must be non-negative")
     if n == 0:
